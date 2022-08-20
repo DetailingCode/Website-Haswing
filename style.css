@@ -23,7 +23,7 @@ H1{
     font-weight: 500;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(0, 136, 255);
 }
 
@@ -36,16 +36,16 @@ H1{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    padding-bottom: 10px;
+    padding-top: 1rem;
     width: 100%;
-    height: 300px;
+    height: 28rem;
     display:block;
     
 }
 .logo{
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 300px;
     height: 170px;
 }
 
@@ -65,17 +65,21 @@ a.social-link-text{
 .contact-icon{
     text-align: right;
     margin-right: 50px;
-    font-size: 0.8rem;
+    position: absolute;
+    top: 2%;
+    left: 59%;
 }
 nav{
     background-color: rgb(235, 235, 235);
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     color: black;
-    Height: 50px;
+    Height: 5rem;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 2.5rem;
     display: flex;
+    justify-content: space-evenly;
+    
     
 }
 
@@ -85,7 +89,7 @@ nav{
     display: flex;
     letter-spacing: 1px;
     text-decoration: none;
-    justify-content: 
+    
     
 }
 
