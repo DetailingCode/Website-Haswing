@@ -4,6 +4,14 @@
     display: flexbox;
 }
 
+html, body{
+    height: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
 body{
     background-color: #303030;
     color: rgb(183, 183, 183);
@@ -67,7 +75,7 @@ nav{
     Height: 50px;
     width: 100%;
     padding-top: 25px;
-    
+    display: flex;
     
 }
 
@@ -77,6 +85,7 @@ nav{
     display: flex;
     letter-spacing: 1px;
     text-decoration: none;
+    justify-content: 
     
 }
 
