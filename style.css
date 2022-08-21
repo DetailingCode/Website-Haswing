@@ -31,7 +31,7 @@ H1{
     Width: 100%;
     
 }
-.haswing-logo{
+header{
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@ H1{
     padding-top: 1rem;
     width: 100%;
     height: 28rem;
-    display:block;
+    display: block;
     
 }
 .logo{
@@ -69,6 +69,7 @@ a.social-link-text{
     top: 2%;
     left: 59%;
 }
+
 nav{
     background-color: rgb(235, 235, 235);
     font-family: 'Kanit', sans-serif;
@@ -76,38 +77,35 @@ nav{
     color: black;
     Height: 5rem;
     width: 100%;
-    padding-top: 2.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    
+    padding-top: 3rem;
     
 }
 
-.nav-links{
+nav ul{
     font-size: 12px;
     font-weight: 500;
-    display: flex;
     letter-spacing: 1px;
     text-decoration: none;
     
     
 }
 
-.nav-links a{
+nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     letter-spacing: 1px;
     
 }
 
-.nav-links li{
+nav li{
     text-decoration: none;
     letter-spacing: 3px;
     list-style-type:none;
-    width: 15%;
+    justify-content: space-evenly;
     font-size: 15px;
     text-align: center;
     white-space: nowrap;
+    float: left;
     
 }
 
@@ -129,7 +127,7 @@ a.ul{
 
 .image-bottom-nav{
     width:100%;
-    height: 580px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
