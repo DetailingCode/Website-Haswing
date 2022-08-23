@@ -66,30 +66,30 @@ a.social-link-text{
     margin-right: 50px;
     position: absolute;
     top: 2%;
-    left: 59%;
+    left: 67%;
+    font-size: 1.2rem;
 }
 
 nav{
-    background-color: rgb(75, 122, 153);
+    background-color: rgb(57, 109, 144);
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     color: black;
-    Height: 5rem;
-    width: 100%;
-    padding-top: 3rem;
+    Height: 4.8rem;
+    width: 100vw;
+    padding-top: 2.2rem;
 }
 
 nav ul{
     font-weight: 500;
-    letter-spacing: 1px;
     text-decoration: none;
-    
 }
 
 nav a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     letter-spacing: 1px;
+    padding: 2.8rem 2.2rem;
 }
 
 nav li{
@@ -97,13 +97,13 @@ nav li{
     list-style-type:none;
     font-size: 13px;
     float: left;
-     
+    text-shadow: 0.2rem 0.2rem 0.2rem black;;
 
 }
 
 nav a:hover{
     color: rgb(246, 135, 0);
-
+    background: black;
 }
 
 a.ul{
@@ -149,13 +149,18 @@ a.ul{
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
     color: black;
-    padding-top: 100px;
+    padding: 10rem 0rem;
     float: left;
     text-align: left;
     list-style-type: none;
     line-height: 2rem;
     
 }
+
+.left-box1-list h2{
+    padding-bottom: 5rem;
+}
+
 .title-li{
     font-size: 24px;
 }
@@ -179,17 +184,6 @@ p{
     height: 700px;
 }
 
-
-.box2{
-    background: white;
-    padding-top: 200px;
-    width: 100%;
-    height: 840px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    
-}
 .news{
     width: auto;
     height: 600px;
@@ -237,6 +231,14 @@ p{
     opacity: 1.0;
 }
 
+.box2{
+    background: white;
+    padding-top: 200px;
+    width: 100%;
+    height: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .left-box2{
     font-size: 40px;
@@ -245,10 +247,7 @@ p{
     padding-left: 200px;
     padding-right: 100px;
     width: 40%;
-    margin-top: -50px;
     float: left;
-    
-    
 }
 
 .left-box2-image{
@@ -263,14 +262,12 @@ p{
     font-family: 'Kanit', sans-serif;
     color: black;
     width: 29%;
-    display:inline-block;
     line-height: 4rem; 
-    
+    float: right;        
 }
 
 .right-box2-h2{
     font-size: 3rem;
-    
 }
 
 
@@ -285,6 +282,7 @@ p{
     width: 150px;
     height: 40px;
     margin-left: 100px;
+
 }
 
 .button-poradnik:hover{
