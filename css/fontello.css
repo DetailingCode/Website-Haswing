@@ -62,29 +62,29 @@
 .icon-tools:before { content: '\e805'; font-size: 20px; color: white;} /* '' */
 .icon-flash:before { content: '\e806'; font-size: 20px; color: white;} /* '' */
 .icon-calendar-outlilne:before { content: '\e807'; font-size: 20px; color: white;} /* '' */
-.icon-flag:before { content: '\e808'; font-size: 30px; color: rgb(0, 94, 156);} /* '' */
-.icon-thumbs-up:before { content: '\e809'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
+.icon-flag:before { content: '\e808'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0); ;} /* '' */
+.icon-thumbs-up:before { content: '\e809'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
 .icon-wrench:before { content: '\e80a'; color: white;} /* '' */
 .icon-waves:before { content: '\e80b'; color: white;} /* '' */
 .icon-wrench-1:before { content: '\e80c'; color: white;} /* '' */
-.icon-wrench-2:before { content: '\e80d'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
-.icon-air:before { content: '\e80e'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
+.icon-wrench-2:before { content: '\e80d'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
+.icon-air:before { content: '\e80e'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
 .icon-basket:before { content: '\e80f'; } /* '' */
 .icon-print:before { content: '\e810'; } /* '' */
 .icon-ferry:before { content: '\e816'; } /* '' */
-.icon-shield:before { content: '\f132'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
+.icon-shield:before { content: '\f132'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
 .icon-anchor:before { content: '\f13d'; font-size: 20px; color: white;} /* '' */
 .icon-youtube:before { content: '\f167'; } /* '' */
 .icon-youtube:hover:before { content: '\f167'; color:#FF0000;} /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-instagram:hover:before { content: '\f16d'; color:#bc2a8d;} /* '' */
-.icon-ship:before { content: '\f21a'; font-size: 30px; color: rgb(53, 173, 253);} /* '' */
+.icon-ship:before { content: '\f21a'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
 .icon-handshake-o:before { content: '\f2b5'; font-size: 20px; color: white;} /* '' */
 .icon-facebook-rect:before { content: '\f301'; } /* '' */
 .icon-facebook-rect:hover:before { content: '\f301'; color:#4267B2; } /* '' */
-.icon-emo-happy:before { content: '\e813'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
-.icon-gauge:before { content: '\e814'; font-size: 30px; color: rgb(0, 153, 255);} /* '' */
+.icon-emo-happy:before { content: '\e813'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
+.icon-gauge:before { content: '\e814'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
 .icon-location:before { content: '\e811'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
 .icon-phone:before { content: '\e812'; font-size: 23px; color: rgb(255, 255, 255); vertical-align: middle;} /* '' */
-.icon-help-circled:before { content: '\e817'; font-size: 30px; color: white;} /* '' */
-.icon-right-circled:before { content: '\f0a9'; color: white;} /* '' */
+.icon-help-circled:before { content: '\e817'; font-size: 30px;} /* '' */
+.icon-right-circled:before { content: '\f0a9'; } /* '' */
