@@ -85,7 +85,6 @@ nav{
     Height: 4.8rem;
     width: 100vw;
     padding-top: 2.2rem;
-    
 }
 
 nav ul{
@@ -93,7 +92,6 @@ nav ul{
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 nav a{
@@ -108,7 +106,6 @@ nav li{
     list-style-type: none;
     font-size: 13px;
     text-shadow: 0.2rem 0.2rem 0.2rem black;
-    
 }
 
 nav a:hover{
@@ -140,9 +137,7 @@ a.ul{
     margin-right: auto;
     margin-bottom: 0px;
     padding-top: 10rem;
-    
 }
-
 
 .left-box1{
     font-size: 40px;
@@ -152,7 +147,6 @@ a.ul{
     padding-right: 100px;
     float: left;
     width: 600px;
-  
 }
 
 .left-box1-list{
@@ -164,7 +158,6 @@ a.ul{
     text-align: left;
     list-style-type: none;
     line-height: 2rem;
-    
 }
 
 .left-box1-list h2{
@@ -195,13 +188,13 @@ p{
 }
 
 .news{
-    width: auto;
+    width: 100vw;
     height: 600px;
     background-image: url(img/CaymanB.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    align-items: baseline;
-    
+    align-items: baseline; 
 }
 
 .h2-news{
@@ -244,7 +237,7 @@ p{
 .box2{
     background: white;
     padding-top: 200px;
-    width: 100%;
+    width: 100vw;
     height: 840px;
     margin-left: auto;
     margin-right: auto;
@@ -321,63 +314,27 @@ h6{
 }
 
 footer{
-    width: 96,5%;
+    width: 100vw;
     height: 200px;
-    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
     color: white;
     font-size: 14px;
     font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
     text-align: center;
+    background: black;
 }
 
-.footer-left-box{
-    float:left;
-    width:32%;
-    text-align: center;
-    margin-top: 15px;
-    border-style: dotted;
-    border-left: 10px;
-    border-top: 10px;
-    border-bottom: 10px;
-    border-color: rgb(255, 255, 255);
-    height:160px;
-    padding-top: 10px;
-    line-height: 25px;
-    
-}
-.footer-middle-box{
-    float:left;
-    width:32%;
-    padding-top: 40px;
-}
-.footer-right-box{
-    width:32%;
-    float:left;
-    border-style: dotted;
-    border-right: 10px;
-    border-top: 10px;
-    border-bottom: 10px;
-    border-color: rgb(255, 255, 255);
-    height:160px;
-    margin-top: 20px;
-    line-height: 25px;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 10px;
-     
-    
-}
-.footer-right-box-text{
-    padding-left: 70px;
-}
-
-.footer-links{
+footer a{
     text-decoration: none;
     color: white;
+    
 }
-.footer-links:hover{
-    color:rgb(255, 145, 0);
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(57, 109, 144);
+
 }
