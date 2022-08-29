@@ -54,37 +54,38 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-home:before { content: '\e800';font-size: 20px; color: white;} /* '' */
-.icon-users:before { content: '\e801'; font-size: 20px; color: white;} /* '' */
-.icon-mail:before { content: '\e802'; font-size: 25px; color: rgb(255, 255, 255); vertical-align: middle;} /* '' */
-.icon-info:before { content: '\e803'; font-size: 20px; color: white;} /* '' */
-.icon-vcard:before { content: '\e804'; font-size: 20px; color: white;} /* '' */
-.icon-tools:before { content: '\e805'; font-size: 20px; color: white;} /* '' */
-.icon-flash:before { content: '\e806'; font-size: 20px; color: white;} /* '' */
-.icon-calendar-outlilne:before { content: '\e807'; font-size: 20px; color: white;} /* '' */
-.icon-flag:before { content: '\e808'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0); ;} /* '' */
-.icon-thumbs-up:before { content: '\e809'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
-.icon-wrench:before { content: '\e80a'; color: white;} /* '' */
-.icon-waves:before { content: '\e80b'; color: white;} /* '' */
-.icon-wrench-1:before { content: '\e80c'; color: white;} /* '' */
-.icon-wrench-2:before { content: '\e80d'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
-.icon-air:before { content: '\e80e'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
+.icon-home:before { content: '\e800';font-size: 20px;} /* '' */
+ 
+.icon-users:before { content: '\e801'; font-size: 20px;} /* '' */
+.icon-mail:before { content: '\e802'; font-size: 32px; color: rgb(0, 0, 0); vertical-align: middle;} /* '' */
+.icon-info:before { content: '\e803'; font-size: 20px;} /* '' */
+.icon-vcard:before { content: '\e804'; font-size: 20px;} /* '' */
+.icon-tools:before { content: '\e805'; font-size: 20px;} /* '' */
+.icon-flash:before { content: '\e806'; font-size: 20px;} /* '' */
+.icon-calendar-outlilne:before { content: '\e807'; font-size: 20px;} /* '' */
+.icon-flag:before { content: '\e808'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-thumbs-up:before { content: '\e809'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-wrench:before { content: '\e80a'; } /* '' */
+.icon-waves:before { content: '\e80b'; } /* '' */
+.icon-wrench-1:before { content: '\e80c'; } /* '' */
+.icon-wrench-2:before { content: '\e80d'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-air:before { content: '\e80e'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
 .icon-basket:before { content: '\e80f'; } /* '' */
 .icon-print:before { content: '\e810'; } /* '' */
 .icon-ferry:before { content: '\e816'; } /* '' */
-.icon-shield:before { content: '\f132'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
-.icon-anchor:before { content: '\f13d'; font-size: 20px; color: white;} /* '' */
-.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-shield:before { content: '\f132'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-anchor:before { content: '\f13d'; font-size: 20px; } /* '' */
+.icon-youtube:before { content: '\f167'; color: black;} /* '' */
 .icon-youtube:hover:before { content: '\f167'; color:#FF0000;} /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-instagram:before { content: '\f16d'; color: black;} /* '' */
 .icon-instagram:hover:before { content: '\f16d'; color:#bc2a8d;} /* '' */
-.icon-ship:before { content: '\f21a'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
-.icon-handshake-o:before { content: '\f2b5'; font-size: 20px; color: white;} /* '' */
-.icon-facebook-rect:before { content: '\f301'; } /* '' */
+.icon-ship:before { content: '\f21a'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-handshake-o:before { content: '\f2b5'; font-size: 20px;} /* '' */
+.icon-facebook-rect:before { content: '\f301'; color: black;} /* '' */
 .icon-facebook-rect:hover:before { content: '\f301'; color:#4267B2; } /* '' */
-.icon-emo-happy:before { content: '\e813'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
-.icon-gauge:before { content: '\e814'; font-size: 30px; color: rgb(255, 255, 255); text-shadow: 3px 3px 3px rgb(0, 0, 0);} /* '' */
+.icon-emo-happy:before { content: '\e813'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
+.icon-gauge:before { content: '\e814'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
 .icon-location:before { content: '\e811'; font-size: 30px; color: rgb(255, 255, 255);} /* '' */
-.icon-phone:before { content: '\e812'; font-size: 23px; color: rgb(255, 255, 255); vertical-align: middle;} /* '' */
+.icon-phone:before { content: '\e812'; font-size: 30px; color: rgb(0, 0, 0); vertical-align: middle;} /* '' */
 .icon-help-circled:before { content: '\e817'; font-size: 30px;} /* '' */
 .icon-right-circled:before { content: '\f0a9'; } /* '' */

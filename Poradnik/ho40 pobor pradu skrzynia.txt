@@ -1,0 +1,15 @@
+Test w skrzyni z wod¹:
+Osapian 40 prze³¹cznik biegów 5/3
+1 bieg - 7,4 A
+2 bieg - 10 A
+3 bieg - 15 A
+4 bieg - 18,8 A
+5 bieg - 40 A
+
+Osapian 40 maximizer
+
+Obroty ustawione na manetce jako 1 bieg - 2,8 A
+Obroty ustawione na manetce jako 2 bieg - 3,8 A
+Obroty ustawione na manetce jako 3 bieg - 7 A
+Obroty ustawione na manetce jako 4 bieg - 17 A
+Obroty ustawione na manetce jako 5 bieg - 40 A

@@ -1,66 +1,58 @@
-
-/*
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-*/
-
 *{
     margin: 0;
     padding: 0;
     display: flexbox;
 }
 
-html, body{
-    height: 100%;
+body{
+    background-color: #000000;
+    color: rgb(233, 233, 233);
+    font-family: 'Lato', sans-serif;
 }
 
 html{
     font-size: 62.5%;
 }
 
-body{
-    background-color: #303030;
-    color: rgb(183, 183, 183);
-    font-family: 'Lato', sans-serif;
-}
 H1{
-    COLOR: lightgrey;
+    COLOR: rgb(0, 0, 0);
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(129, 129, 129);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgb(136, 136, 136);
 }
 
 .container{
-    Width: 100vw;
+    height: 100%;
     
 }
-header{
-    background-color: black;
+.haswing-logo{
+    background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    padding-top: 1rem;
-    width: 100vw;
-    height: 28rem;
-    display: block;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 2rem;
+    
     
 }
 .logo{
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    height: 170px;
-    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    height: 190px;
 }
 
 .social-icon{
     font-size: 20px;
     display: inline-flex;
     align-items: left;
-    margin-top: 8px;  
+    margin-top: 10px;  
 }
 
 a.social-link-text{
@@ -69,79 +61,79 @@ a.social-link-text{
  
 }
 .contact-icon{
+    color: black;
     text-align: right;
     margin-right: 50px;
-    position: absolute;
-    top: 2%;
-    left: 67%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
 }
 
 nav{
-    background-color: rgb(57, 109, 144);
-    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 255, 255);
     text-transform: uppercase;
-    color: black;
-    Height: 4.8rem;
+    Height: 55px;
     width: 100vw;
-    padding-top: 2.2rem;
-}
+    display: flex; 
+    justify-content: space-evenly;
+    border-top: 6px black;
+    border-top: 1px solid black;
+}  
 
-nav ul{
-    font-weight: 500;
+nav ol{
     text-decoration: none;
-    display: flex;
+    padding-top: 1.6rem;
     justify-content: space-evenly;
 }
 
+nav li{
+    list-style-type:none;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+    float: left;
+    
+}
+.Models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     letter-spacing: 1px;
-    padding: 2.6rem 1rem;
+    padding: 2.1rem 2.8rem;
+}
+ 
+li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
 }
 
-nav li{
-    letter-spacing: 2px;
-    list-style-type: none;
-    font-size: 13px;
-    text-shadow: 0.2rem 0.2rem 0.2rem black;
-}
 
-nav a:hover{
-    color: rgb(246, 135, 0);
-    background: black;
-   }
-
-a.ul{
-    color: white;
-
-}
 
 .image-bottom-nav{
-    width: 100vw;
-    height: 470px;
-   
-}
-.picture-bottom-nav{
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width:100%;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/Protruar1-water.jpg);
     background-position: center;
+    background-size: cover;
 }
+
 
 .box1{
-    background: linear-gradient(90deg, rgba(127,127,127,1) 0%, rgba(59,104,144,1) 100%);
-    width: 100vw;
-    height: 1000px;
      
-}
-
-.box1 h2{
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px rgb(0, 0, 0);
-    padding-left: 20rem;
-    font-size: 3rem;
+    width: 100vw;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, rgba(102, 160, 187,1) 0%, rgba(105,105,105, 1) 100%);
 }
 
 .left-box1{
@@ -154,34 +146,32 @@ a.ul{
     width: 600px;
 }
 
-.left-box1 p {
-    font-size: 1.7rem;
-
-}
-.title-li{
-    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+.left-box1 h2{
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Kanit', sans-serif;
     color: white;
-    padding-bottom: 0.5rem;
+    font-weight: 200;
+    padding-bottom: 2rem;
+
 }
 
 .left-box1-list{
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
     color: black;
-    padding: 10rem 0rem;
+    padding-top: 100px;
     float: left;
     text-align: left;
     list-style-type: none;
     line-height: 2rem;
+    
 }
-
-.left-box1-list h2{
-    padding-bottom: 5rem;
-}
-
 .title-li{
     font-size: 24px;
+    padding-bottom: 1rem;
+    line-height: 4rem;
 }
+
 p{
     font-size: 16px;
     margin-left: 50px;
@@ -196,82 +186,185 @@ p{
     width: 40%;
     padding-top: 100px;
 }
-
 .right-box1 img{
-    width:auto;
-    height: 700px;
+    box-shadow: 5px 5px 40px 40px rgb(255, 255, 255);
 }
 
 .news{
+    background-size: 100%;
     width: 100vw;
     height: 600px;
+    align-content: center;
     background-image: url(img/CaymanB.jpg);
-    background-size: cover;
+    background-image: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    align-items: baseline; 
 }
 
 .h2-news{
-    color: rgb(0, 0, 0);
-    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
     text-align: center;
+    align-items: center;
     padding-top: 50px;
-    text-shadow: 3px 3px 3px white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 3px 3px 3px black  ;
+
 }
 
-.news img{
-    width: 180px;
-    height: 300px;
-    padding: 11px;
+.motor-card1 img
+{
+    width: 220px;
+    height: 330px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    
 }
 
-.motor-card{
+.motor-card1 img:hover{
+    opacity: 1.0;
+}
+.motor-card2 img:hover{
+    opacity: 1.0;
+}
+.motor-card3 img:hover{
+    opacity: 1.0;
+}
+.motor-card4 img:hover{
+    opacity: 1.0;
+}
+.motor-card2 img
+{
+    width: 220px;
+    height: 330px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    
+}
+
+.motor-card3 img
+{
+    width: 220px;
+    height: 330px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    
+}
+.motor-card4 img
+{
+    width: 220px;
+    height: 330px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    
+}
+
+
+.motor-card1,.motor-card2,.motor-card3,.motor-card4{
     background: white;
-    border-radius: 1rem 0rem 1rem 0rem;
-    width: 200px;
-    height: 370px;
+    border-radius: 1rem 0rem 0rem 0rem;
+    width: 250px;
+    height: 400px;
     float: left;
+    margin-top: 50px;
     text-align: center;
     font-weight: 600;
-    font-size: 1.4rem;
     color: black;
     margin-top: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 9%;
-    opacity: 0.8;
+    font-size: 1.5rem;
+     
 }
 
-.motor-card:hover{
+.motor-card1{
+    margin-left: 300px;
+    
+}
+
+.motor-card1:hover{
     cursor: pointer;
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(102, 160, 187);
     color: white;
     opacity: 1.0;
 }
 
-.box2{
-    background: linear-gradient(-90deg, rgba(127,127,127,1) 0%, rgba(59,104,144,1) 100%);
-    padding-top: 200px;
-    width: 100vw;
-    height: 840px;
+.motor-card2{
+     margin-left: 100px;
+
+}
+
+.motor-card2:hover{
+    cursor: pointer;
+    background-color: rgb(102, 160, 187);
+    color: white;
     
+}
+.motor-card3{
+    margin-left: 100px;
+}
+
+.motor-card3:hover{
+    cursor: pointer;
+    background-color: rgb(102, 160, 187);
+    color: white;
+}
+
+.motor-card4{
+    margin-left: 100px;
+
+}
+
+.motor-card4:hover{
+    cursor: pointer;
+    background-color: rgb(102, 160, 187);
+    color: white; 
+}
+
+.box2{
+    background: linear-gradient(90deg, rgba(105,105,105,1) 0%, rgba(102, 160, 187, 1) 100%);
+    
+    /*background: radial-gradient(circle, rgba(105,105,105,1) 0%, rgba(102,160,187,1) 100%); */
+
+    padding-top: 300px;
+    width: 100vw;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left-box2{
     font-size: 40px;
-    font-family: 'Kanit', sans-serif;
     color: black;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 100px;
-    width: 40vh;
+    width: 40%;
+    margin-top: -50px;
     float: left;
+ 
+}
+.right-box2 h3{
+    padding-bottom: 3rem;
+    color: white;
+    font-weight: 200;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0.4rem 0.4rem 0.4rem black;
+}
+
+.right-box2 h6{
+    padding-bottom: 2rem;
+    color: white;
+    font-weight: 200;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
 }
 
 .left-box2-image{
-    width:750px;
+    width: 740px;
     height: 500px;
-    border-radius: 1rem;
-    border: 0.2rem solid black;
+    box-shadow: 5px 5px 40px 40px rgb(255, 255, 255);
 }
 
 .right-box2{
@@ -279,14 +372,10 @@ p{
     font-family: 'Kanit', sans-serif;
     color: black;
     width: 29%;
+    display:inline-block;
     line-height: 4rem; 
-    float: right;        
+    
 }
-
-.right-box2-h2{
-    font-size: 3rem;
-}
-
 
 .button-poradnik{
     font-size: 20px;
@@ -295,20 +384,23 @@ p{
     border: solid 2px black;
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 145, 0);
+    background-color:  rgb(255, 230, 0);
     width: 150px;
     height: 40px;
-    margin-left: 100px;
-
+    margin-left: 120px;
+    margin-top: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgb(255, 255, 255);
 }
 
 .button-poradnik:hover{
 
-    background-color: rgb(248, 199, 134);
+    background-color:  rgb(255, 187, 0);
     cursor: pointer;
+    color: black;
+    text-shadow: 0.1rem 0.1rem 0.1rem  white;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
 }
-
-
 
 .right-box2 a{
     text-decoration: none;
@@ -318,9 +410,8 @@ p{
 .right-box2 a:hover{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-
 }
+
 h6{
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
@@ -329,24 +420,39 @@ h6{
 
 footer{
     width: 100vw;
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
+    height: 200px;
+    background: black;
     color: white;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0rem;
+    font-family: 'Kanit', sans-serif;
 }
 
 footer a{
     text-decoration: none;
     color: white;
 }
-
 footer a:hover{
     text-decoration: none;
-    color: rgb(57, 109, 144);
+    color: rgb(102, 160, 187);
 }
+
+footer ul{
+    list-style-type: none;
+}
+
+footer p{
+    display: inline;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+
+
+/* SLIDER */
+
