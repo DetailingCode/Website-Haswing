@@ -25,7 +25,7 @@ H1{
 }
 
 
-.haswing-logo{
+header{
     background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
@@ -37,10 +37,8 @@ H1{
     
 }
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 320px;
     height: 190px;
 }
@@ -75,24 +73,21 @@ nav{
     padding-top: 2rem;
 }  
 
-
 nav ol{
     text-decoration: none;
     line-height: 400%;
     display: inline-block;
     padding: 0;
     margin: 0;
-    
-     
 }
 
 ol > li{
     list-style-type:none;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: 'Kanit', sans-serif;
     float: left;
     border-right: 1px solid black;
-    
+    height: 40px;
 }
 
 ol > li:hover{
@@ -124,7 +119,7 @@ ol > li >ul >li{
      
 }
 ol > li >ul >li:hover{
-    background-color: aqua;
+    background-color: rgb(124, 195, 249);
 }
 
 ol > li >ul >li:hover > a{
