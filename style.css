@@ -73,7 +73,7 @@ nav{
     background-color: rgb(255, 255, 255);
     text-transform: uppercase;
     Height: 55px;
-    width: 100vw;
+    width: 100%;
     display: flex; 
     justify-content: space-evenly;
     border-top: 6px black;
@@ -452,7 +452,10 @@ footer p{
     font-size: 2rem;
 }
 
-
-
-/* SLIDER */
-
+.sticky{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
